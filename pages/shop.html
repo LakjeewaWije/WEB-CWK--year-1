@@ -1,0 +1,417 @@
+<!-- 
+
+* TEMPLATE Created by YAZEEN THARIQ on 20th JUNE 2017.
+* CONTENT EDITOR AND DESIGNER : ASHFAQ AHMED. (student 1)
+* ...
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ashfaq Ahmed">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Shop</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="../Images/Homepage/fav.png" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css"/> <!-- MAIN STYLE SHEET : CREATED BY : STUDENT 2 -->
+        <link rel="stylesheet" href="../css/animate.css"  type="text/css" /> <!-- OPEN SOURCE CODE @citation section - 1  see above(TOP) -->
+        <link rel="stylesheet" href="../css/waypoints.css" type="text/css" /> <!-- PREDEFINED styles BY STUDENT 2  -->
+        <link rel="stylesheet" href="../css/sub-style.css" type="text/css"/> <!-- CREATED BY STUDENT 2  -->
+        <link rel="stylesheet" href="../css/shop.css" type="text/css"/> <!-- CREATED BY STUDENT 1  -->
+        <link rel="stylesheet" href="../css/countries.css" type="text/css"/> <!-- CREATED BY STUDENT 2  -->
+
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' type='text/css'> <!-- GOOGLE FONTS - CDN LIBRARY  -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" type='text/css'/> <!-- GOOGLE FONTS - CDN LIBRARY  -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!-- CDN LIBRARY FOR animate.css, smoothScrolling, parallax and waypoints  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> <!-- CDN LIBRARY FOR animate.css -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>  <!-- CDN LIBRARY FOR waypoints -->
+
+        <script src="../js/parallax.js" type="text/javascript"></script> <!-- OPEN SOURCE CODE @citation section - 2  see above(TOP) -->
+        <script src="../js/jquery.waypoints.min.js" type="text/javascript"></script> <!-- OPEN SOURCE CODE @citation section - 3  see above(TOP) -->
+        <script src="../js/waypoints.js" type="text/javascript"></script> <!-- OPEN SOURCE CODE @citation section - 4  see above(TOP) -->
+        <script src="../js/fontResize.js" type="text/javascript"></script>
+
+        <style>
+            .book1{background-image: url(../Images/Shop/book1.jpg);}
+            .book2{background-image: url(../Images/Shop/book2.jpg);}
+            .book3{background-image: url(../Images/Shop/book3.jpg);}
+            .souv1{background-image: url(../Images/Shop/souv1.jpg);}
+            .souv2{background-image: url(../Images/Shop/souv2.jpg);}
+            .souv3{background-image: url(../Images/Shop/souv3.jpg);}
+            .pack{background-image: url(../Images/Shop/pack.jpg);}
+            .pack1{background-image: url(../Images/Shop/pack1.jpg);}
+            .pack2{background-image: url(../Images/Shop/pack2.jpg);}
+            .pack3{background-image: url(../Images/Shop/pack3.jpg);}
+            #btnsubmit{
+                font-size: 30px;
+                padding: 7px;
+                border-radius: 10px;
+                border: 1px solid;
+                color: #08746f;
+                font-weight: bold;
+                font-family: 'Open Sans', sans-serif;
+                cursor:pointer;
+            }
+
+            #btnClear{
+                font-size: 30px;
+                padding: 7px;
+                border-radius: 10px;
+                border: 1px solid;
+                color: #08746f;
+                font-weight: bold;
+                font-family: 'Open Sans', sans-serif;
+                cursor:pointer;
+            }
+
+
+
+            #addtc {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- HEADER CONTAINS THE NAVIGATION BAR -->
+        <header> <!-- Navigation -->
+
+            <div id="logo"><a href="index.html"><img src="../Images/Homepage/logo-rev-final.png"></a></div> <!-- Our Site Logo -->
+
+            <nav class="nav_main"> <!-- Navigation main anchor -->
+                <ul>
+                    <li><a href="..//pages/countries/destinations.html">Destinations&#x25BF;</a>
+                        <div class="nav_contents">
+                            <div class="nav_subs">
+                                <ul>
+                                    <li><a href="../pages/countries/srilanka.html">Sri Lanka</a></li>
+                                    <li><a href="../pages/countries/Iceland.html">Iceland</a></li>
+                                    <li><a href="../pages/countries/sweden.html">Sweden</a></li>
+                                    <li><a href="../pages/countries/thailand.html">Thailand</a></li>
+                                    <li><a href="../pages/countries/peru.html">Peru</a></li>
+                                    <li><a href="../pages/countries/greece.html">Greece</a></li>
+                                    <li><a href="../pages/countries/italy.html">Italy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Features&#x25BF;</a>
+                        <div class="nav_contents"> <!-- Sub Navigation anchor -->
+                            <div class="nav_subs">
+                                <ul>
+                                    <li><a href="../pages/quiz-intro.html">Quiz</a></li>
+                                    <li><a href="../pages/diagrams.html">Diagrams</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="../pages/shop.html">Shop</a></li>
+                    <li><a href="#">About Us&#x25BF;</a>
+                        <div class="nav_contents">
+                            <!-- Sub Navigation anchors -->
+                            <div class="nav_subs">
+                                <ul>
+                                    <li><a href="../pages/student-cv-1.html">Student 1</a></li>
+                                    <li><a href="../pages/student-cv-2.html">Student 2</a></li>
+                                    <li><a href="../pages/student-cv-3.html">Student 3</a></li>
+                                    <li><a href="../pages/student-cv-4.html">Student 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Info Pages&#x25BF;</a>
+                        <div class="nav_contents">
+                            <!-- Sub Navigation anchors -->
+                            <div class="nav_subs">
+                                <ul>
+                                    <li><a href="../pages/student-info-1.html">Student 1</a></li>
+                                    <li><a href="../pages/student-info-2.html">Student 2</a></li>
+                                    <li><a href="../pages/student-info-3.html">Student 3</a></li>
+                                    <li><a href="../pages/student-info-4.html">Student 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="../pages/comment-us.html">Comment Us</a></li>
+                    <li><a href="../pages/sitemap.html">Sitemap</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <div class="featured-image" data-parallax="scroll" data-image-src="../Images/Shop/shop-cover.jpg">
+            <div class="row-header">
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.4">
+                    <span id="title1">SHOP</span>
+                    <span id="title2">Guide Books, Packages and More.</span>
+                </div>
+            </div>
+
+            <img alt="Increase text size"src="../Images/shop/mkeTextBig.png" height= "50" width="50" onclick="resizeText(1)" style="margin-top:70px; margin-left:2px;" />
+            <img alt="Decrease text size" src="../Images/shop/mkeTextSmall.png" height="50" width="50" onclick="resizeText(-1)" style="margin-top:70px; margin-left:5px;"/>
+
+        </div>
+
+
+
+        <div id="shopContainer">
+
+            <div class="sub-nav">   
+                <ul>
+                    <li><a id="intro" href="#guidebookssection">Guide Books</a></li>
+                    <li><a id="explore" href="#packagesection">Tourism Packages</a></li>
+                    <li><a id="articles" href="#souvaniersection">Souvenirs</a></li>
+                </ul>
+            </div>
+
+            <section id="guidebookssection">
+
+                <h1 id="heading">HAVE THE BEST EXPERIENCE</h1>
+                <h3 id="heading">GUIDE BOOKS</h3>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">Footprint Srilanka</h1><br> <br>
+                            <h2 style="margin-left: 180px; font-size: 30px;" id="content">2nd Edition - Sara Chare -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">7$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(7);">
+                        </div>
+                        <div class="image-container">
+                            <div class="caption book1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">Greece Travel Guide</h1><br> <br>
+                            <h2  style="margin-left: 180px; font-size: 30px;" id="content">2012 - Atsons &amp; Williams -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">8$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(8);">
+                        </div>
+
+                        <div class="image-container">
+                            <div class="caption book2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features"> 
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">Italy Travel Guide</h1><br> <br>
+                            <h2 style="margin-left: 180px; font-size: 30px;" id="content">2010 -INSIGHT GUIDES -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">5$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(5);">
+                        </div>
+
+
+                        <div class="image-container">
+                            <div class="caption book3"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section> 
+
+            <section id="packagesection">
+
+                <h3 id="heading">PACKAGES</h3>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">SRILANKA - 5 nights &amp; 4 days</h1><br> <br>
+                            <h2 style="margin-left: 100px; font-size: 30px;" id="content">Colombo, Galle, Hambanthota -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">400$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(400);">
+                        </div>
+
+
+                        <div class="image-container">
+                            <div class="caption pack1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">
+
+                        <div style="text-align: center;" class="description">
+                            <h1 style="margin-left: 15px;" id="title">Iceland - 10 nights &amp; 9 Days</h1><br> <br>
+                            <h2  style="margin-left: 100px; font-size: 30px;" id="content"> Stockholm, Gothenburg, Visby -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">700$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(700);">
+                        </div>
+
+                        <div class="image-container">
+                            <div class="caption pack2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">   
+
+                        <div style="text-align: center;" class="description">
+                            <h1 style="margin-left: 20px;" id="title">Thailand - 7 Nights &amp; 6 Days</h1><br> <br>
+                            <h2 style="margin-left: 100px; font-size: 30px;" id="content">Bangkok, The north, The central -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">550$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(550);">
+                        </div>
+
+                        <div class="image-container">
+                            <div class="caption pack3"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section> 
+
+
+
+
+            <section id="souvaniersection">
+
+                <h3 id="heading">SOUVENIERS</h3>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">
+
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">Footprint Srilanka</h1><br> <br>
+                            <h2 style="margin-left: 180px; font-size: 30px;" id="content">2nd Edition - Sara Chare -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">5$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(5);">
+                        </div>
+
+                        <div class="image-container">
+                            <div class="caption souv1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">Footprint Srilanka</h1><br> <br>
+                            <h2 style="margin-left: 180px; font-size: 30px;" id="content">2nd Edition - Sara Chare -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">5$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(5);">
+                        </div>
+
+                        <div class="image-container">
+                            <div class="caption souv2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="os-animation" data-os-animation="slideInUp" data-os-animation-delay="0.5">
+                    <div class="features">   
+
+                        <div style="text-align: center;" class="description">
+                            <h1 id="title">Footprint Srilanka</h1><br> <br>
+                            <h2 style="margin-left: 180px; font-size: 30px;" id="content">2nd Edition - Sara Chare -
+                                <span style="color: red; font-size: 40px;font-weight: bold;">5$</span></h2> <br><br><br>
+
+                            <input type="button" name="btnsubmit" id="addtc" value="ADD TO CART" onclick="AddToCart(5);">
+                        </div>
+
+                        <div class="image-container">
+                            <div class="caption souv3"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </section> 
+
+            <section style="text-align: center;padding-top: 10px; padding-bottom: 20px">
+                <input type="button" name="btnsubmit" id="addtc" value="CHECK OUT" onclick="Checkout();">
+            </section>
+        </div>
+
+
+        <div id="shopCheckoutContainer"  style="text-align: center;padding-top: 10px; padding-bottom: 20px">
+            <br><br><br><br>
+            <h1 id="title"><span style="color: red; font-size: 40px;font-weight: bold;"> Amount : </span> <span id="FinalAmmount"> 00</span> </h1>
+            <br><br>
+            <input type="button" name="btnClear" id="btnClear" value="Clear Cart " onclick="ClearAndShop();">
+            <br><br><br><br><br><br><br>
+        </div>
+
+
+        <script >
+            var shop = document.getElementById('shopContainer');
+            var shopCheckout = document.getElementById('shopCheckoutContainer');
+            var Ammount = document.getElementById('FinalAmmount');
+            var finalPrice =0;
+            shopCheckout.style.display = 'none';
+
+            function AddToCart( prise) {
+                finalPrice = finalPrice + prise;
+            }
+
+            function Checkout() {
+                shop.style.display = 'none';
+                shopCheckout.style.display = '';
+                Ammount.innerHTML = finalPrice +"$";
+            }
+
+            function ClearAndShop() {
+                shop.style.display = '';
+                shopCheckout.style.display = 'none';
+                finalPrice = 0;
+            }
+
+        </script>
+
+        <!-- THIS IS THE FOOTER SECTION -->
+        <footer>
+            <span id="footer-text">2017 www.wildernessexplorers.com | &copy; All Rights Reserved | Terms | Policies | Licenses</span>
+
+            <div id="contact-us">
+                <span id="contact-text" style="font-family:Roboto; font-size:19px;"><strong>CONTACT US</strong><br></span><br>
+                <span id="contact-text">Address: No:15, abc Road, abc Street, Colombo.</span><br>
+                <span id="contact-text">Phone: +94 774567894</span><br>
+                <span id="contact-text">Email: wexplorers@gmail.com</span><br>
+                <span id="contact-text">www.wildernessexplorers.com</span><br>
+            </div>
+            <div id="follow-us-wrapper">
+                <img id="follow-us" src="../Images/Homepage/follow.png"/>
+            </div> 
+            <img id="footer-logo-container" src="../Images/Homepage/footer.png" alt="Wilderness Explorers" title="Wilderness Explorers"/>
+        </footer>
+
+    </body>
+
+</html>

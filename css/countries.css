@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.featured-image {
+
+    height: 600px;
+    width: 100%;
+    background: transparent;
+    background-size: cover;
+} /* Country image ---> IMAGE URL GIVEN IN INLINE HTML CODE */
+
+.row-header {
+
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+} /* Country name and caption container */
+
+.breadcrumb{
+
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 40px;
+
+
+} /* breadcrumb container */
+
+.breadcrumb > ol {
+    list-style: none;
+    display: inline-block;
+} /* Odered list for breadcrumb */
+
+.breadcrumb > ol > li {
+
+    font-weight: bold;
+    padding: 6px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+} 
+
+.breadcrumb > ol > li > a {
+
+    color: #2d8b6b;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    overflow: hidden;
+
+    transition: font-size ease-in-out 200ms;
+}
+
+.breadcrumb > ol > li > a:hover {
+    color: #232323;
+    font-size: 1.3em;
+
+    transition: font-size ease-in-out 200ms;
+} /* End of breadcrumb styling */
+
+
+.sub-nav{
+
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 4px 6px rgba(217, 214, 214, 0.62);
+} /* sub-navigation to inner page container */
+
+.sub-nav > ul {
+    text-align: center;
+    list-style: none;
+
+} /* unordered list styling */
+
+.sub-nav > ul > li {
+    border-color: #6c6b6b;
+    border-width: thin;
+    border-style: solid;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 7.5px;
+    padding: 10px 0px;
+    margin: 5px;
+} /* individual navigation items */
+
+.sub-nav > ul > li > a {
+
+    font-weight: bold;
+    text-decoration: none;
+    color: #232323;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    border-radius: 7.5px;
+    padding: 10px;
+
+    transition: background-color 500ms, color 500ms;
+
+} /* navigation anchors */
+
+.sub-nav > ul > li > a:hover{
+    color: #FFF;
+    background-color: #232323;
+
+    transition: background-color 500ms, color 500ms;
+} /* End of sub-nav styling*/
+
+
+/* Sections styling */
+
+#introSection {
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+    background: white;
+    z-index: 2;
+} /* intro section */
+
+#exploreSection{
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+    z-index: 2;
+} /* Explore section */
+
+#articlesSection{
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+    z-index: 2;
+
+} /* aricles section */
+
+/* Content Division for #explore  with image and description */
+.features{
+
+    overflow: hidden;
+    margin: 30px auto;
+    width: 90%;
+    height: 330px;
+    border-style: solid;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: #232323;
+    border-width: thin;
+}
+
+.image-container {
+
+    width: 400px;
+    height: 250px;
+    margin: 5px 80px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: all .6s;
+}
+
+.image-container>.caption {
+    border-width: thick;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    flex: none;
+    background-position: center;
+    background-size: cover;
+    transition: all .8s;
+}
+
+.image-container:hover .caption,
+.image-container:focus .caption {
+    transform: scale(1.2);
+    transition: all .8s;
+}
+
+.caption::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.image-container:hover .caption::before,
+.image-container:focus .caption::before {
+    display: block;
+}
+
+.image-container:hover a,
+.image-container:focus a {
+    display: block;
+}
+
+.description{
+    float: right;
+    margin-right: 10px;
+    width: 730px;
+    height: 280px;
+}
+
+#content{
+
+    margin: 5px;
+    text-align: justify;
+    line-height: 26px;
+    font-size: 17.5px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+} /* End of Content Division with image and description */
+
+
+.wrap{
+    position: relative;
+    width: 80%;
+    height: 230px;
+    margin: 0 auto;  
+}
+
+#article-preview{
+    margin-top: 50px;
+    width: 100%;
+    height: 230px;
+}
+
+#article-preview-img{
+
+    position: relative;
+    width: 380px;
+    height: 220px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+#article-preview-img:hover{
+  
+    transform: scale(1.0222);
+    transition: all .2s ease-in-out;
+}
+
+#article-preview-text-box{
+
+    width: 350px;
+    height: 210px;
+    margin-right: 190px;
+    float: right;
+
+}
+
+#article-preview-text{
+    text-decoration: none;
+    color: #232323;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+/* Article page styles */
+
+#article-content{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+
+#wrapper-2{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: auto; 
+}
+
+#article-banner{
+    position: relative;
+    background-color: transparent;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 700px;;
+    height: 450px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+#article-details{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 850px;;
+    height: 220px;
+}
+
+
+/* SRI-LANKA IMAGES */
+.colombo{background-image: url(../Images/Destinations/srilanka/colombo.jpg);}
+.north-coast{background-image: url(..//Images/Destinations/srilanka/mirissa.jpg);}
+.cultural-triangle{background-image: url(..//Images/Destinations/srilanka/cult-Sri.jpg);}
+.hill-country{background-image: url(..//Images/Destinations/srilanka/hill-sri.jpg);}
+
+/* ICELAND IMAGES */
+.reykjavik{background-image: url(..//Images/Destinations/iceland/Reykjavik.jpg);}
+.southwestern-iceland{background-image: url(..//Images/Destinations/iceland/southwestern_iceland.jpg);}
+.west-coast{background-image: url(..//Images/Destinations/iceland/westcoast.jpg);}
+.west-fjords{background-image: url(..//Images/Destinations/iceland/west%20fjords.jpg);}
+
+/* PERU IMAGES */
+.lima{background-image: url(..//Images/Destinations/peru/lima%20&%20around.jpg);}
+.cusco{background-image: url(..//Images/Destinations/peru/cusco.jpg);}
+.arequipa{background-image: url(..//Images/Destinations/peru/arequipa.jpg);}
+.titicaca{background-image: url(..//Images/Destinations/peru/titcaca.jpg);}
+
+/* GREECE IMAGES*/
+.athens{background-image: url(..//Images/Destinations/greece/athens.jpg);}
+.peloponnese{background-image: url(..//Images/Destinations/greece/peloponnese.jpg);}
+.central{background-image: url(..//Images/Destinations/greece/central-main.jpg);}
+.northern{background-image: url(..//Images/Destinations/greece/northern-main.jpg);}
+
+/* ITALY IMAGES */
+.rome{background-image: url(..//Images/Destinations/italy/rome.jpg);}
+.valle{background-image: url(..//Images/Destinations/italy/valle.jpg);}
+.liguria{background-image: url(..//Images/Destinations/italy/liguria.jpg);}
+.lombardy{background-image: url(..//Images/Destinations/italy/lombardy.jpg);}
+
+/* SWEDEN IMAGES */
+.stockholm{background-image: url(..//Images/Destinations/sweden/stockholm.jpg);}
+.gothenburg{background-image: url(..//Images/Destinations/sweden/gothenburg.jpg);}
+.icehotel{background-image: url(..//Images/Destinations/sweden/icehotel.jpg);}
+.visby{background-image: url(..//Images/Destinations/sweden/visby.jpg);}
+
+/* THAILAND IMAGES */
+.bangkok{background-image: url(..//Images/Destinations/thailand/bangkok.jpg);}
+.central{background-image: url(..//Images/Destinations/thailand/central.jpg);}
+.north{background-image: url(..//Images/Destinations/thailand/north.jpg);}
+.east{background-image: url(..//Images/Destinations/thailand/eastcoast.jpg);}

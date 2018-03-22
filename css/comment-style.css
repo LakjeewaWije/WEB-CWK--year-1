@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.comment-background {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    height: auto;
+    background: url(../Images/Info/info-cover.png) repeat;
+    background-attachment: fixed;
+}
+
+.comments-container {
+    margin: 0 auto;
+    border-radius: 7px;
+    height: auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 2;
+    padding: 0px 0px 50px 0px;
+    /*
+    resize: both;
+    overflow: auto;
+    */
+}
+
+.comments-form {
+    position: relative;
+    top: 1px;
+    bottom: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: auto;
+    width: 70%;
+    background: linear-gradient(45deg,rgba(27, 165, 216, 0.6) 0%, rgba(30, 221, 52, 0.6) 100%);
+    z-index: 2;
+    padding: 0px 0px 80px 0px;
+}
+
+.text-input{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    display: block;
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    color: inherit;
+    margin: 0 auto;
+    padding: 17px;
+    background-color: #fff;
+    appearance: none;
+    box-shadow: 0 0 7px #b9b9b9;
+    border-radius: 4px;
+    border: 1px solid #cecece;
+
+
+    -webkit-font-smoothing: antialiased!important;
+}
+
+.text-area{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    display: block;
+    width: 70%;
+    height: 150px;
+    box-sizing: border-box;
+    color: inherit;
+    margin: 0 auto;
+    padding: 17px;
+    background-color: #fff;
+    appearance: none;
+    box-shadow: 0 0 7px #b9b9b9;
+    border-radius: 4px;
+    border: 1px solid #cecece;
+    resize: vertical;
+
+    -webkit-font-smoothing: antialiased!important;
+}
+
+.column-100{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 40px;
+    margin-bottom: 1px;
+    align-content: center;
+    padding: 15px 0px 15px 0px;
+
+}
+
+.column-101{
+
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 44px;
+    bottom: 3px;
+    align-content: center;
+    margin-bottom: -15px;
+
+
+}
+
+#form-subs{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: inherit;
+    padding: 1px;
+    border-radius: 4px;
+    background-color: rgba(116, 116, 116, 0.31);
+
+    -webkit-font-smoothing: antialiased!important;
+}
+
+.ratings{
+    appearance: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    display: block;
+    width: 70%;
+    height: auto;
+    color: inherit;
+    margin: 0 auto;
+    padding: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #b9b9b9;
+    border-radius: 4px;
+    border: 1px solid #cecece;
+
+    -webkit-font-smoothing: antialiased!important;
+}
+
+#feedback-button{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 15px #b9b9b9;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid black;
+    color: black;
+
+    transition: background-color 1000ms, color 1000ms;
+
+}
+
+#feedback-button:hover{
+    text-shadow: 0 0 20px rgba(255,255,255,1);
+    background-color: rgba(255, 255, 255, 1);
+    color: #222;
+    cursor: pointer;
+
+    transition: background-color 1000ms, color 1000ms;
+}
+
+.ratings > option[value="Excellent"]{
+    background-color: rgba(13, 216, 36, 0.2);
+}
+
+.ratings > option[value="Good"]{
+    background-color: rgba(7, 201, 179, 0.2);
+}
+
+.ratings > option[value="Average"]{
+    background-color: rgba(255, 177, 0, 0.2);
+}
+
+.ratings > option[value="Poor"]{
+    background-color: rgba(255, 98, 0, 0.2);
+}
+
+.ratings > option[value="Very Poor"]{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#result{
+    margin: 20px;
+    font-family: Roboto;
+    line-height: 48px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
